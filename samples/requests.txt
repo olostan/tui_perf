@@ -1,0 +1,10 @@
+https://google.com: 19
+https://facebook.com: 38
+https://www.tripadvisor.com/: 44
+https://twitter.com: 85
+https://www.booking.com/: 132
+https://hotels.com: 159
+https://www.tui.co.uk: 173
+https://www.airbnb.co.uk/: 186
+https://www.kayak.co.uk/: 244
+https://www.homeaway.com/: 311

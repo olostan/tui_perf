@@ -1,0 +1,34 @@
+Adobe Test & Target
+AdScale
+Advertising.com
+AppNexus
+Baynote Observer
+Bing Ads
+BlueKai
+Conversant
+DataXu
+Dotomi
+DoubleClick
+DoubleClick Floodlight
+DoubleClick Spotlight
+Facebook Custom Audience
+Facebook Pixel
+Google AdWords Conversion
+Google Adwords User Lists
+Google Dynamic Remarketing
+Lotame
+Media Innovation Group
+Proficientz
+Quantcast
+Tapad
+Twitter Advertising
+Twitter Conversion Tracking
+Decibel Insight
+Google Analytics
+Omniture (Adobe Analytics)
+Quantcount
+Twitter Analytics
+Visual IQ
+Facebook Connect
+Ensighten
+Usabilla

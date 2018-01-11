@@ -1,0 +1,14 @@
+[
+    {
+        "url":"https://www.tui.co.uk/destinations/deals/tui-family-life",
+        "requests":161, "error":false, "load":"2.076", "total":"3.831"
+    },
+    {
+        "url":"https://www.tui.co.uk/des....-boston.html",
+        "requests":369,"error":false,"load":"3.931","total":"5.843"
+    },
+    {
+        "url":"https://www.tui.co.uk/",
+        "requests":165,"error":false,"load":"1.140","total":"2.680"
+    }
+]

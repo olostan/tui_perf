@@ -1,0 +1,29 @@
+my-app presentation symbol div {
+  font-size: 4vw;
+}
+
+#intro {
+  font-size: 4vw;
+}
+#auth,#email,#pres_url {
+  font-size: 2vw;
+  width: 80vw;
+  text-align: right;
+}
+#auth{ transform:translateY(160px);}
+#email{ transform:translateY(195px);}
+#pres_url{ transform:translateY(230px);}
+
+.s1 {
+  #intro{ opacity:1;}
+  #auth{ opacity:1;}
+  #email{ opacity:1;}
+  #pres_url{ opacity:1;}
+}
+.s2 {
+  #intro{ opacity:0;transform:translateY(300px) rotateX(-60deg);}
+  #auth{ opacity:0;transform:translateY(460px);transition-delay: 0.4s;}
+  #email{ opacity:0;transform:translateY(495px);transition-delay: 0.3s;}
+  #pres_url{ opacity:0;transform:translateY(530px);transition-delay: 0.2s;}
+  
+}

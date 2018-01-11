@@ -1,0 +1,100 @@
+<presentation slides="75">
+    <symbol name="bg">&nbsp;</symbol>
+    <symbol name="logo"><img src="assets/TUI-Logo.png" /></symbol>
+    
+    <symbol name="title1">TUI UK Site</symbol>
+    <symbol name="title2">Performance Optimisation Workshop</symbol>
+    <symbol name="name">Valentyn Shybanov</symbol>
+    <symbol name="photo"><img src="assets/Valentyn_gde_long.jpg" /></symbol>
+    <symbol name="gde">Google Developer Expert (Web & Cloud) - IO Consultant</symbol>
+    <symbol name="agenda">Agenda</symbol>
+    <symbol name="a_1">&#9655; Introduction and Definitions</symbol>
+    <symbol name="a_2">&#9655; Measuring and Tools </symbol>
+    <symbol name="a_3">&#9655; Optimization Discoveries</symbol>
+    <symbol name="a_4">&#9655; Proposed Actions</symbol>
+
+    <symbol name="speed_q2">What are <span>the main metrics</span> of Page Speed?</symbol>
+    <symbol name="speed_q2a1">&#9675; First Byte</symbol>
+    <symbol name="speed_q2a2">&#9675; First Meaningful paint</symbol>
+    <symbol name="speed_q2a3">&#9675; First Interactive</symbol>
+
+    <symbol name="speed_comp">What are <span>the main components</span> of Page Speed?</symbol>
+    <symbol name="speed_comp_1"><span>Networking</span>: HTTP 1/2, size</symbol>
+    <symbol name="speed_comp_2"><span>Rendering</span>: CSS/HTML</symbol>
+    <symbol name="speed_comp_3"><span>JavaScript</span>: Parsing, Execution</symbol>
+
+    <symbol name="speed_m">How we can <span>measure</span> Page Speed?</symbol>
+    <symbol name="speed_m1">Chrome Dev Tools</symbol>
+    <symbol name="speed_m1_img"><img src="assets/chrome_devtools.png"></symbol>
+    <symbol name="speed_m2">Networking Graph</symbol>
+    <symbol name="speed_m2_img"><img src="assets/networking.png"></symbol>    
+    <symbol name="speed_m3">Lighthouse</symbol>
+    <symbol name="speed_m3_img"><img src="assets/pwa-lighthouse.png"></symbol>        
+    <symbol name="speed_m3_img2"><img src="assets/tui-lighthouse.png"></symbol>        
+    <symbol name="speed_m4">Usage Coverage</symbol>
+    <symbol name="speed_m4_img"><img src="assets/tui-coverage.png"></symbol>            
+    <symbol name="speed_m5">Own scripts</symbol>
+    <symbol name="speed_m5_src" sample="samples/gather_stats.js"></symbol>            
+    <symbol name="speed_m5_res" sample="samples/gather_stats.json"></symbol>            
+    
+    <symbol name="hl">High-level Optimizations</symbol>
+    <symbol name="hl_1">Number of requests</symbol>
+    <symbol name="hl_1i"><img src="assets/1_waterfall_thumb.png"></symbol>            
+    <symbol name="hl_1s" sample="samples/requests.txt"></symbol>            
+    
+    <symbol name="hl_2">Usage of ensighten.com</symbol>
+
+    <symbol name="hl_3">Trackers: 43 total</symbol>
+    <symbol name="hl_3s" sample="samples/trackers.txt"></symbol>            
+    
+    <symbol name="act">Technical/Code Proposals</symbol>
+
+    <symbol name="act_css">Critical CSS Path</symbol>
+    <symbol name="act_css_i">CSS is required to construct the render tree for your pages and JavaScript will often block on CSS during initial construction of the page. You should ensure that any non-essential CSS is marked as non-critical (e.g. print and other media queries), and that the amount of critical CSS and the time to deliver it is as small as possible.</symbol>
+    <symbol name="penthouse">pocketjoso/penthouse</symbol>
+    <symbol name="penthouse_url">https://github.com/pocketjoso/penthouse</symbol>
+    <symbol name="penthouse_desc">Penthouse is the original critical path css generator, helping you out to speed up page rendering for your websites. Supply your site's full CSS and the page you want to create the critical CSS for, and Penthouse will return the critical CSS needed to perfectly render the above the fold content of the page.</symbol>
+    <symbol name="penthouse_i"><img src="assets/penth_online.png"></symbol>
+    <symbol name="css_lister" sample="samples/css-lister.js"></symbol>
+
+    <symbol name="critical">addyosmani/critical</symbol>
+    <symbol name="critical_url">https://github.com/addyosmani/critical</symbol>
+    <symbol name="critical_s" sample="samples/critical.js"></symbol>
+
+    <symbol name="act_pwa">PWA/Aggressive Caching</symbol>
+    <symbol name="workbox_logo"><img src="assets/workbox.png"></symbol>
+    <symbol name="workbox_url">https://developers.google.com/web/tools/workbox/</symbol>
+    <symbol name="sw_src" sample="samples/service_worker.js"></symbol>
+    
+    <symbol name="act_lazy">Improved Lazy Loader</symbol>
+    <symbol name="lazy_s" sample="samples/lazy_load.js"></symbol>
+<!--
+Web Speed Definitions
+    Main Metrics
+    Main components
+        Metwprlomg
+        Rendering
+        JavaScript speed
+Measuring Web Speed
+    Chrome Dev Tools
+        Network graph
+        Lighthouse
+        Resource Coverage
+Optimisation Discoveries/Actions
+    Too many requests
+    ensighten.com - HTTP/1.1, slow
+    Trackers: 43 trackers, 25 advertising
+    Unused Resources 
+    document.write
+Actions: 
+    CSS Critical Path
+    PWA and aggressive caching
+    Optimized Lazy Loader
+
+-->
+
+    
+    <symbol name="thnx">Thank you!</symbol>
+    <symbol name="home"><a href="https://olostan.name/"><span>https://</span>olostan.name<span>/</span></a></symbol>
+    
+</presentation>
